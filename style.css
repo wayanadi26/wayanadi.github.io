@@ -1,0 +1,29 @@
+/* body {
+  min-height: 2000px;
+} */
+.jumbotron {
+  padding-top: 7rem;
+  background-color: rgb(3, 19, 90);
+  padding-bottom: 3rem;
+}
+
+#about {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#education {
+  padding-top: 4rem;
+  background-color: rgb(3, 19, 90);
+  padding-bottom: 2rem;
+}
+
+.isi {
+  padding-top: 2rem;
+  background-color: #fff;
+}
+
+#contact {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
