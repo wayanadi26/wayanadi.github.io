@@ -10,7 +10,8 @@
 
 <!-- Icon -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 
@@ -58,16 +59,16 @@
 
 <!-- Jumbotron -->
 <section class="jumbotron text-center">
-  <img src="img/Adi Saputra.jpg" alt="I Wayan Adi Saputra" width="150" class="rounded-circle img-thumbnail">
-  <h1 class="display-4 text-white mt-6 p-6">I WAYAN ADI SAPUTRA</h1>
-  <p class="lead text-warning fs-10">COMPUTERS SYSTEMS ENGINEERING STUDENT</p>
+  <img src="img/Adi Saputra.jpg" alt="I Wayan Adi Saputra" width="150" class="rounded-circle img-thumbnail" data-aos="fade-in" data-aos-duration="3000">
+  <h1 class="display-4 text-white mt-6 p-6" data-aos="fade-in" data-aos-duration="3000">I WAYAN ADI SAPUTRA</h1>
+  <p class="lead text-warning fs-10" data-aos="fade-in" data-aos-duration="3000">COMPUTERS SYSTEMS ENGINEERING STUDENT</p>
   <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,192L1440,192L1440,320L0,320Z"></path></svg> -->
 </section>
 <!-- Akhir Jumbotron -->
 
 <!-- About Me -->
  <section id="about">
-   <div class="container">
+   <div class="container" data-aos="fade-up" data-aos-duration="3000">
      <div class="row text-center mt-6 mb-4">
        <div class="col">
          <h2>ABOUT ME</h2>
@@ -86,7 +87,7 @@
 
 <!--  Education -->
 <section id="education">
-  <div class="container">
+  <div class="container" data-aos="fade-up" data-aos-duration="3000">
     <div class="row text-center text-white mt-3 mb-4">
       <div class="col">
         <h3>EDUCATION</h3>
@@ -121,7 +122,8 @@
 <!-- Akhir Education -->
 <!-- Experien -->
 <section id="experience">
-  <div class="container">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="3000">
     <div class="row text-center mt-3 mb-4">
       <div class="col">
         <h2>EXPERIENCE</h2>
@@ -145,7 +147,8 @@
 
 <!-- Achievements -->
 <section id="achievements">
-  <div class="container">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="3000">
     <div class="row text-center text-white mt-3 mb-4">
       <div class="col">
         <h2>ACHIEVEMENTS</h2>
@@ -175,7 +178,8 @@
 
 <!-- Training-->
 <section id="training">
-  <div class="container">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="3000">
     <div class="row text-center mt-3 mb-4">
       <div class="col">
         <h2>TRAINING & WORKSHOP</h2>
@@ -196,7 +200,8 @@
 
 <!-- Contact Me -->
 <section id="contact">
-  <div class="container">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="3000">
     <div class="row text-center text-white mt-6 mb-4">
       <div class="col">
         <h2>CONTACT ME</h2>
@@ -253,6 +258,13 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 <script>
   const scriptURL = "https://script.google.com/macros/s/AKfycbytEpb5v7fRMPpUQtVhIsZWiS0XFExVyQkqk9sAo8oJjflQ-fhUkcDIvoDPFq57VQII/exec";
   const form = document.forms['submit-to-google-sheet'];
@@ -279,5 +291,7 @@
       .catch(error => console.error('Error!', error.message))
   });
 </script>
+
+
   </body>
 </html>
